@@ -24,7 +24,7 @@ public:
 		int halfPos = (m+n+1)/2;
 
 		while(iMin <= iMax) {
-			int i = (iMin + iMax) / 2;
+			int i = (iMin + iMax) >> 1;
 			int j = halfPos - i;
 			if (i>0 && A[i-1] > B[j]) {
 				iMax = i - 1;
