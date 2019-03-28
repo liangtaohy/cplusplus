@@ -22,5 +22,6 @@ public:
 };
 
 int main(void) {
-
+	Solution * s = new Solution();
+	vector<vector<int>> r = s->threeSum();
 }
