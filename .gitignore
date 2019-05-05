@@ -1,0 +1,4 @@
+a.out*
+nginx/
+php-src/
+*.php
