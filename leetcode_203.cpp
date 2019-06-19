@@ -20,7 +20,7 @@ public:
     ListNode* removeElements(ListNode* head, int val) {
         ListNode dummy(0);
         dummy.next = head;
-        
+
         ListNode* p = &dummy;
         
         while(p->next) {
